@@ -116,7 +116,7 @@ const Search = () => {
         width: "100%",
       }}
     >
-      <Typography sx={{ mb: 6, fontSize: "1.5rem" }} variant="h4">
+      <Typography sx={{ mb: 6, fontSize: "1.5rem", px: 4 }} variant="h4">
         Ingrese una ciudad para obtener el clima
       </Typography>
       <Box

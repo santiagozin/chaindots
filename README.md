@@ -46,6 +46,8 @@ headers:
 
 Para el deploy se utiliza Vercel, se debe tener una cuenta en Vercel y configurar el repositorio.
 
+https://chaindots.vercel.app/
+
 ## DEPLOY
 
 npm run test

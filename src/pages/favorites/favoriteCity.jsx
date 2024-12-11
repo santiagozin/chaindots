@@ -49,7 +49,7 @@ const FavoriteCity = () => {
   }, [favoriteCities]);
 
   return (
-    <Box sx={{display: "flex", alignItems: "center", gap: 2}}>
+    <Box sx={{display: "flex", alignItems: "center", gap: 2, flexWrap: "wrap", width: "100%", justifyContent: "center"}}>
       {favoriteCities && favoriteCities.length > 0 ? (
         favoriteCities.map((city, index) => {
           if (!city) {
