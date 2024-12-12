@@ -65,11 +65,12 @@ const Login = () => {
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#fff",
-        padding: "60px",
+        padding: {xs: "20px", md: "60px"},
         borderRadius: "10px",
+        width: {xs: "80%", md: "500px"},
       }}
     >
-      <Typography variant="h4" sx={{ mb: 4, fontWeight: 700 }}>
+      <Typography variant="h4" sx={{ mb: 4, fontWeight: 700, fontSize: {xs: "1.2rem", md: "2rem"} }}>
         Iniciar Sesión
       </Typography>
       <InputOutline
